@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 500px;
+}
+
+div{
+    height: 500px;
+}
+
+.fondoColor{
+    background-color: #0f6666;
+}
+
+.fondoOpacidad{
+    background-color: #5d0c0c;
+    opacity: 0.6;
+}
+
+.fondoImagen{
+    background-image: url("../images/fondo1.jpg");
+}
+
+.fondoRepetidoX{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/b30b4d16704577.562b018908a7c.png");
+    background-repeat: repeat-x;
+    background-size: 20%;
+    
+}
+
+.fondoRepetidoY{
+    background-image: url("https://wallpaperaccess.com/full/6172755.png");
+    background-repeat: repeat-y;
+    background-size: 20%;
+}
+
+.fondoNoRepetido{
+    background-image: url("https://sm.ign.com/t/ign_es/news/s/star-wars-/star-wars-the-rise-of-skywalker-isnt-setting-up-a-new-trilog_k9mu.h720.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.fondoPosicion{
+    background-image: url("https://i.imgur.com/o09fAxL.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+}
+
+.fondoCompleto{
+    background-image: url("https://sm.ign.com/t/ign_es/news/s/star-wars-/star-wars-the-rise-of-skywalker-isnt-setting-up-a-new-trilog_k9mu.h720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 50%;
+}
