@@ -1,0 +1,115 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  /* background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(38, 7, 175, 0.8)), url(./bg-image.jpg); */
+  background-color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container img {
+  max-width: 955px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
+.cuadrado {
+  height: 200px;
+  width: 200px;
+  background-color: #f4f6fb;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  transform: rotate(45deg);
+}
+.textoimg {
+  width: 50%;
+  margin: auto;
+  padding: 100px 300px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+}
+.textoimg h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1f3e72;
+}
+.textoimg p{
+    color:#6d7b93;
+    font-size: 20px;
+  font-weight: 550;
+}
+.logo {
+  width: 130px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #3959d7;
+}
+.navbar h1 {
+  width: 130px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #3959d7;
+  position: relative;
+  left: 100px;
+  text-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 40px;
+  position: relative;
+  left: -200px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #6d7b93;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-shadow: 0 5px 15px rgba(30, 0, 0, 0.4);
+}
+
+.navbar ul li a.active {
+  background: #3959d7;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  color: aliceblue;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.navbar ul li::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #3959d7;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+  width: 100%;
+}
